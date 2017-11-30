@@ -1,0 +1,22 @@
+{
+  "name": "Stream1",
+  "description": "First project",
+  "main": "index.js",
+  "authors": [
+    "Bogdan"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/bogdan-vlad/Stream1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
+    "jquery-easing": "*"
+  }
+}
