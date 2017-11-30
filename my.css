@@ -1,0 +1,298 @@
+.centerAbout {
+	text-align: center;
+	font-size: 4em;
+	color: black;
+}
+.lead {
+	color: black;
+	text-align: left;
+}
+#about {
+	background-image: url(img/grey.jpg);
+	height: 960px;
+
+}
+.white {
+	color: white;
+}
+.left {
+	float: right;
+	padding: 0 20px 20px 0;
+}
+.myproject {
+	color: white;
+	text-align: center;
+	text-decoration: underline;
+	font-size: 3em;
+	padding-bottom: 20px;
+}
+p {
+	margin: 0;
+	padding: 0;
+}
+.orange {
+	color: #F39C12;
+	text-decoration: none;
+}
+header {
+	background-image: url(img/cosmico.jpeg);
+	width: 100%;
+	height: 960px;
+	padding-bottom: 100px;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.centered {
+	padding-top: 150px;
+	font-style: Arial, Serif;
+	font-size: 5em;
+}
+nav {
+	opacity: 1;
+	height: 70px;
+	background-color: #99FFFF;
+}
+footer {
+	background-color: blue;
+}
+
+img {
+	padding-top: 8px;
+}
+.whiteDSLR {
+	text-align: center;
+	color: white;
+}
+.mirror {
+	color: white;
+	text-align: center;
+}
+.bridgeType {
+	color: white;
+	text-align: center;
+}
+.compactCam {
+	color: white;
+	text-align: center;
+}
+
+.aboutDSLR::first-letter {
+	font-size: 300%;
+}
+.mirrorless::first-letter {
+	font-size: 300%;
+}
+.bridge::first-letter {
+	font-size: 300%
+}
+.compact::first-letter {
+	font-size: 300%
+}
+/*social media code*/
+#social {
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	background-color: #F1C40F;
+}
+/*style all the icons*/
+.fa {
+	border-radius: 40px;
+	padding-top: 20px;
+	font-size: 40px;
+	width: 80px;
+	height: 80px;
+	text-align: center;
+	text-decoration: none;
+}
+.fa:hover {
+	opacity: 0.9;
+	color: #F2F3F4;
+	text-decoration: none;
+}
+/*facebook*/
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+}
+/*twitter*/
+.fa-twitter {
+	background: #55ACEE;
+	color: white;
+}
+/*google*/
+.fa-google {
+	background: #dd4b39;
+	color: white
+}
+/*linkedin*/
+.fa-linkedin {
+	background: #007bb5;
+	color: white;
+}
+/*instagram*/
+.fa-instagram {
+	background: #125688;
+	color: white;
+}
+.fa-github {
+	background: #000;
+	color: white;
+}
+.social {
+	padding-bottom: 40px;
+}
+/*End of social media*/
+
+
+/*Enter code.Flexbox media here is a must.*/
+#project {
+	background-image: url(img/black.jpeg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+#project1 {
+	background-color: #273746;
+	opacity: 0.5;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+span {
+	color: blue;
+	text-decoration: underline;
+}
+
+.main {
+	position: relative;
+	width: 680px;
+	margin: 0 auto;
+}
+.view {
+	width: 335px;
+	height: 262px;
+	margin: 10px;
+	display: inline-block;
+	border: 2px solid #000000;
+	background-color: #CCD1D1; /*camera background color*/
+	position: relative;
+	text-align: center;
+	box-shadow: 1px 1px 1px #60C4DC;
+}
+/*hover images begin here*/
+.view .mask {
+	width: 335px;
+	height: 262px;
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+}
+.view h2 {
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	position: relative;
+	font-size: 20px;
+	padding: 10px;
+	background: #000; /*middle type background*/
+	margin: 20px 0 0 0;
+}
+.view p {
+	font-family: arial;
+	font-style: italic;
+	font-size: 15px;
+	position: relative;
+	color: #FFFFFF;
+	padding: 10px 10px 10px;
+	text-align: center;
+}
+/*info box details*/
+.view a.info {
+	display: inline-block;
+	text-decoration: none;
+	padding: 7px 14px;
+	color: #1300FF; /*change color on hover READ MORE box*/
+	text-transform: uppercase;
+	box-shadow: 10px 20px 10px none;
+}
+.view-first .mask {
+	opacity: 0;
+	background-color: #FA7200; /*hover image background*/
+	transition: all 0.4s ease-in-out;
+}
+.view-first h2 {
+	transform: translate(-100px);
+	transition: all 0.2s ease-in-out;
+}
+.view-first p {
+	transform: translateY(100px);
+	transition: all 0.2s linear;
+}
+.view-first:hover img {
+	transform: scale(1.1,1.1);
+}
+.view-first:hover .mask {
+	opacity: 0.9;
+}
+.view-first:hover h2,
+.view-first:hover p,
+.view-first:hover a.info {
+	opacity: 100;
+	transform: translate(0px);
+}
+.view-first:hover p {
+	transition-delay: 0.1s;
+}
+.view-first:hover a.info {
+	transition: 0.2s;
+}
+/*hover images finished here*/
+
+/*contact form*/
+.contact {
+	height: 100%;
+	width: 550px;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	margin: auto;
+}
+
+label.field {
+	display: block;
+	text-align: right;
+	width: 100px;
+	float: left;
+}
+input {
+	width: 200px;
+	border-radius: 5px;
+	padding: 6px 8px;
+}
+.field {
+	padding: 6px 8px;
+}
+#contact {
+	border: 1px solid #000;
+	border-radius: 10px;
+	padding: 30px;
+	background-color: #5DADE2;
+}
+.legend {
+	font-size: 60px;
+	text-align: center;
+}
+.question {
+	font-style: none;
+	font-size: 20px;
+	text-align: center;
+	padding: 30px;
+}
+
+
+
+
+
+
+
+
